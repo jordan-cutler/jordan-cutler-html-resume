@@ -1,21 +1,21 @@
-@page{
+@page {
   size: letter portrait;
   margin: 0;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
-:root{
+:root {
   --page-width: 8.5in;
   --page-height: 11in;
   --main-width: 8.5in;
-  --main-padding: 0.8in .7in 0.5in .7in;
+  --main-padding: 0.8in 0.7in 0.5in 0.7in;
   --horizontal-line-color: #383838;
 }
 
-body{
+body {
   width: var(--page-width);
   height: var(--page-height);
   font-family: "Times New Roman", sans-serif;
@@ -25,7 +25,8 @@ body{
   hyphens: manual;
 }
 
-sup, sub {
+sup,
+sub {
   vertical-align: baseline;
   position: relative;
   top: -0.4em;
@@ -34,7 +35,9 @@ sub {
   top: 0.4em;
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
   margin: 0;
   color: #000;
 }
@@ -47,7 +50,8 @@ h3 {
   font-size: 11pt;
 }
 
-p, li {
+p,
+li {
   width: 92ch;
   font-size: 10.5pt;
 }
@@ -78,7 +82,7 @@ hr {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
-  margin-bottom: .15in;
+  margin-bottom: 0.15in;
 }
 
 .header-grid-group {
@@ -99,6 +103,7 @@ hr {
 }
 
 .section-title {
+  font-size: 14pt;
   margin-bottom: 0;
 }
 
