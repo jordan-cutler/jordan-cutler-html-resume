@@ -102,6 +102,10 @@ hr {
   font-size: 16pt;
 }
 
+b {
+  font-weight: normal;
+}
+
 .section-title {
   font-size: 14pt;
   margin-bottom: 0;
@@ -114,6 +118,7 @@ hr {
 
 .subtitle-section > :last-child {
   justify-self: end;
+  font-weight: normal;
 }
 
 .section-subtitle {
