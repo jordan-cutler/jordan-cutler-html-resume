@@ -121,6 +121,10 @@ b {
   font-weight: normal;
 }
 
+.below-subtitle {
+  margin-block: 0.05in;
+}
+
 .section-subtitle {
   font-weight: 400;
 }
