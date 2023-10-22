@@ -79,15 +79,21 @@ hr {
 }
 
 .header {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
-  margin-bottom: 0.15in;
+  align-items: center; */
+  margin-bottom: 0.05in;
 }
 
 .header-grid-group {
   display: grid;
   grid-template-rows: 1fr 1fr;
+}
+.header-grid-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
 }
 
 .header > :last-child {
@@ -99,7 +105,8 @@ hr {
 /** big title **/
 #title {
   text-align: center;
-  font-size: 16pt;
+  font-size: 18pt;
+  margin-bottom: 0.05in;
 }
 
 b {
