@@ -91,7 +91,7 @@ hr {
 }
 .header-grid-row {
   display: flex;
-  gap: 8px;
+  gap: 0.05in;
   align-items: center;
   justify-content: center;
 }
@@ -142,6 +142,10 @@ ul {
   margin-left: 0.25in;
   padding: 0;
 }
+.inline-ul {
+  margin-left: .15in;
+}
+
 
 ul > li {
   word-break: break-word;
